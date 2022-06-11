@@ -146,6 +146,10 @@ display: flex;
 }
 
 .main-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -154,9 +158,7 @@ display: flex;
     color: #FFFFFF;
     text-transform: uppercase;
     width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+
 }
 .btn {
     display: block;
@@ -256,6 +258,8 @@ display: flex;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    
+    margin-bottom: 10px;
 
 }
 .team-position {
@@ -351,7 +355,7 @@ display: flex;
   .filter-btn.current {
     color: #FFFFFF;
     background-color: #2196F3;
-  }
+ }
  .project-item {
     list-style: none;
  }
@@ -367,6 +371,7 @@ display: flex;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-color);
+    margin-bottom: 4px;
  }
  .project-text {
     font-size: 16px;
